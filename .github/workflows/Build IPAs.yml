@@ -1,4 +1,4 @@
-name: Build IPAs
+name: Build IPAas
  
 on:
   push:
