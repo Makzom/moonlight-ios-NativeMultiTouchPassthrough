@@ -2,8 +2,8 @@ name: Build IPAs
 
 on:
   
-//  push:
-//  branches: [ "noWaterMark" ]
+  //push:
+  branches: [ "noWaterMark" ]
   workflow_dispatch:
   
 jobs:
