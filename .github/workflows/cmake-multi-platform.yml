@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     name: Build IPAs
-    runs-on: macos-latest
+    runs-on: workflow_dispatch 
 
     steps:
       - name: Checkout
