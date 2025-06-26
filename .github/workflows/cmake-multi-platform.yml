@@ -3,11 +3,12 @@ name: Build IPAas
 on:
   push:
     branches: [ "noWaterMark" ]
+workflow_dispatch ：
 
 jobs:
   build:
     name: Build IPAs
-    runs-on: workflow_dispatch 
+    runs-on: macos-latest 
 
     steps:
       - name: Checkout
